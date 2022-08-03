@@ -1,0 +1,55 @@
+
+#sliderProduct {
+	width:400px;
+	overflow:hidden;
+	border: 10px solid #00728F;
+	height:266px;
+	position:relative;
+	margin:auto;
+    padding:0 !important;
+    margin-top:15px !important;
+}
+
+#sliderProduct ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+}
+
+#sliderProduct ul li img {
+	display: block;
+    width:400px !important;
+    height:266px !important;
+    max-width: none !important;
+    margin:0 !important;
+}
+
+/********** Link Styles ***********/
+
+#links {
+	width:420px;
+	display: flex;
+	margin: 0 auto;
+}
+
+#links a {
+	display:block;
+	width:210px;
+	background:#00728F;
+	height:50px;
+	line-height:50px;
+	color:#eee;
+	text-decoration:none;
+	font-family:Arial;
+	text-transform:uppercase;
+	text-align:center;
+}
+
+#links a:hover {
+	background:#00080A;
+	color:#3DD8FF;
+}

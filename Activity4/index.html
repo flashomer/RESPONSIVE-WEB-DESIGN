@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Page Form</title>
+  <meta charset="utf-8" />
+  <style>
+    body {
+        font-size:13pt;
+    }
+
+    table tr {
+        height:45px;
+    }
+
+    table tr td:first-child{
+        font-weight:bold;
+        font-size:12pt;
+    }
+
+    table tr td input[type='text'],table td input[type='password']{
+       width:250px;
+       height:25px;
+
+    }
+
+    table td select{
+       height:25px;
+
+    }
+
+    table td textarea{
+      width:250px;
+    }
+
+    table tr td input[type='submit'] {
+        padding:5px 10px;
+    }
+
+  </style>
+</head>
+
+<body>
+
+<h1>Registration Form</h1>
+
+<form action="Activity4.php" method="get">
+
+    <table>
+        <tr>
+            <td>Name</td>
+            <td>:</td>
+            <td><input type="text" name="name" value="" /></td>
+        </tr>
+        <tr>
+            <td>Username</td>
+            <td>:</td>
+            <td><input type="text" name="username" value="" /></td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td>:</td>
+            <td><input type="password" name="password" value="" /></td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td>:</td>
+            <td><input type="text" name="address" value="" /></td>
+        </tr>
+        <tr>
+            <td>Country</td>
+            <td>:</td>
+            <td>
+                <select name="country">
+                    <option value="0">(Please select a country)</option>
+                    <option value="Turkey">Turkey</option>
+                    <option value="ABD">ABD</option>
+                    <option value="England">England</option>
+                    <option value="Germany">Germany</option>
+                    <option value="France">France</option>
+                    <option value="Italy">Italy</option>
+                    <option value="Portugal">Portugal</option>
+                    <option value="Russia">Russia</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>ZIP Code</td>
+            <td>:</td>
+            <td><input type="text" name="zipCode" value="" /></td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>:</td>
+            <td><input type="text" name="email" value="" /></td>
+        </tr>
+        <tr>
+            <td>Sex</td>
+            <td>:</td>
+            <td>
+                <input type="radio" name="sex" value="Male" />
+                    <label>Male</label>
+                <input type="radio" name="sex" value="Female" />
+                    <label>Female</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Language</td>
+            <td>:</td>
+            <td>
+                <input type="checkbox" name="language" value="English" />
+                    <label>English</label>
+                <input type="checkbox" name="language" value="French" />
+                    <label>French</label>
+                <input type="checkbox" name="language" value="Germanu" />
+                <label>Germanu</label>
+            </td>
+        </tr>
+        <tr>
+            <td>About</td>
+            <td>:</td>
+            <td><textarea name="about" cols="30" rows="10"></textarea></td>
+        </tr>
+        <tr>
+            <td colspan="3"><input type="submit" value="Submit" /></td>
+        </tr>
+
+    </table>
+
+</form>
+
+</body>
+</html>

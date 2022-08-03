@@ -1,0 +1,50 @@
+    body{
+      margin: 0;
+      padding: 0;
+      width:100%;
+
+    }
+    #content {
+        padding:20px;
+    }
+
+    #logo{ text-align:center }
+    #menu ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    #menu li {
+      float: left;
+    }
+
+    #menu li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    #menu li a:hover {
+      background-color: #111;
+    }
+
+    .listSmall {
+      font-size: small;
+    }
+
+    .listMedium {
+      font-size: medium;
+    }
+
+    .listLarge {
+      font-size: large;
+    }
+
+    #copyRight {
+        font-style: italic;
+    }

@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Homework4 - AYBU NoteBook Company</title>
+    <meta name="description" content="AYBU NoteBook Company" />
+    <meta name="keywords" content="notebook,notebook company, aybu notebook" />
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="jQueryPlugins/responsive-carousel-riot/riot-slider.css" />
+    <link rel="stylesheet" href="jQueryPlugins/jquery.carousel-ticker/carouselTicker.css" />
+    <link rel="stylesheet" href="jQueryPlugins/jquery.easy-ticker/jquery.easy-ticker.css" />
+    <link rel="stylesheet" href="jQueryPlugins/modal-popup-ybox/modal-popup-ybox.css" />
+    <link rel="stylesheet" href="jQueryPlugins/modal-popup-ybox/yBox.css" />
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="jQueryPlugins/jquery.easy-ticker/jquery.easy-ticker.min.js"></script>
+
+</head>
+<body>
+<div id="header-top">
+    <div class="container">
+        <div id="logo">
+            <img src="img/Logo.png" alt="logo" />
+        </div>
+    </div>
+</div>
+
+<div id="menu">
+    <div class="container">
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="product.html">Product</a></li>
+            <li><a href="reservation.html">Reservation</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </div>
+</div>
+
+
+
+<div id="slider">
+    <div class="mainContainer">
+        <ul class="riot-slider">
+              <li><img src="img/slider/1.jpg" alt="Alt Text" /></li>
+              <li><img src="img/slider/2.jpg" alt="Alt Text" /></li>
+              <li><img src="img/slider/1.jpg" alt="Alt Text" /></li>
+              <li><img src="img/slider/2.jpg" alt="Alt Text" /></li>
+          </ul>
+    </div>
+</div>
+
+<div class="container">
+
+
+
+    <div class="ct-1">
+
+        <div class="md-1">
+
+            <div id="finance">
+              <a href="javascript:reloadFinance()" title="Reload Finance">Reload</a>
+              <h2></h2>
+              <table>
+                <tr>
+                    <th>CurrencyName</th>
+                    <th>ForexBuying</th>
+                    <th>ForexSelling</th>
+                    <th>BanknoteBuying</th>
+                    <th>BanknoteSelling</th>
+                </tr>
+              </table>
+            </div>
+
+        </div>
+
+
+        <div class="md-1">
+
+                        <div class="carouselTicker">
+                            <ul class="carouselTicker__list">
+                                <li class="carouselTicker__item"><img src="img/img1.png" alt="news1" /></li>
+                                <li class="carouselTicker__item"><img src="img/img2.jpg" alt="news1" /></li>
+                                <li class="carouselTicker__item"><img src="img/img1.png" alt="news1" /></li>
+                                <li class="carouselTicker__item"><img src="img/img2.jpg" alt="news1" /></li>
+                                <li class="carouselTicker__item"><img src="img/img1.png" alt="news1" /></li>
+                                <li class="carouselTicker__item"><img src="img/img2.jpg" alt="news1" /></li>
+                                <li class="carouselTicker__item"><img src="img/img1.png" alt="news1" /></li>
+                                <li class="carouselTicker__item"><img src="img/img2.jpg" alt="news1" /></li>
+                                <li class="carouselTicker__item"><img src="img/img1.png" alt="news1" /></li>
+                                <li class="carouselTicker__item"><img src="img/img2.jpg" alt="news1" /></li>
+                                <li class="carouselTicker__item"><img src="img/img1.png" alt="news1" /></li>
+                            </ul>
+                        </div>
+                    </div>
+        </div>
+        <div class="md-1">
+
+            <div class="card md-2">
+                <label>News</label>
+                <div class="demo" id="newsTicker">
+                  <ul>
+                    <li>
+                       <img src="img/img1.png" alt="Expandable Input" />
+                       <a href="#">Read Mode</a>
+                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </li>
+                    <li class="odd">
+                       <img src="img/img2.jpg" alt="jQuery Photor Plugin" />
+                       <a href="#">Read Mode</a>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </li>
+                    <li>
+                       <img src="img/img1.png" alt="Metreaux Tables" />
+                       <a href="#">Read Mode</a>
+                       <p> The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+
+
+          <div class="event md-2">
+            <label>Events</label>
+                <div class="demo" id="productTicker">
+                  <ul>
+                    <li>
+                        <a href="#event1"><img src="img/img1.png" alt="event 1" /></a>
+                    </li>
+                    <li class="odd">
+                        <a href="#event1"><img src="img/img2.jpg" alt="event 2" /></a>
+                    </li>
+                     <li>
+                        <a href="#event1"><img src="img/img3.png" alt="event 3" /></a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+
+
+    </div>
+
+    <div class="ct-1">
+        <div class="md-1">
+
+            <div class="product md-6">
+                <label>product 1</label>
+                <img src="img/img1.png" alt="product 1" />
+                <p>12$</p>
+                <a href="#product">Buy Now</a>
+            </div>
+
+            <div class="product md-6">
+                <label>product 2</label>
+                <img src="img/img2.jpg" alt="product 1" />
+                <p>15$</p>
+                <a href="#product">Buy Now</a>
+            </div>
+
+            <div class="product md-6">
+                <label>product 3</label>
+                <img src="img/img3.png" alt="product 1" />
+                <p>17$</p>
+                <a href="#product">Buy Now</a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="ct-1">
+          <div class="group-wrap">
+            <a href="img/img1.png" class="yBox" data-ybox-group="group1">
+              <img src="img/img1.png" alt="" width="200" />
+            </a>
+            <a href="img/img2.jpg" class="yBox" data-ybox-group="group1">
+              <img src="img/img2.jpg" alt="" width="200" />
+            </a>
+            <a href="img/img3.png" class="yBox" data-ybox-group="group1">
+              <img src="img/img3.png" alt="" width="200" />
+            </a>
+            <a href="img/img4.jpg" class="yBox" data-ybox-group="group1">
+              <img src="img/img4.jpg" alt="" width="200" />
+            </a>
+            <a href="img/img1.png" class="yBox" data-ybox-group="group1">
+              <img src="img/img1.png" alt="" width="200" />
+            </a>
+
+          </div>
+    </div>
+
+</div>
+
+<div id="footer">
+  <div class="container">
+        <div class="part md-4">
+            <label>Sitemap</label>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+        </div>
+
+        <div class="part md-4">
+
+            <div class="md-1">
+                <label>Subscribe</label>
+                <form action="/" method="get">
+                    <table>
+                        <tr>
+                            <td><input type="text" value="Email Adress" /></td>
+                            <td><input type="submit" value="Subscribe" /> </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+
+            <div class="md-1">
+                <label>Search</label>
+                <form action="/" method="get">
+                    <table>
+                        <tr>
+                            <td><input type="text" value="search..." /></td>
+                            <td><input type="submit" value="Search" /> </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+
+        </div>
+
+        <div class="part md-4">
+            <label>Follow Me</label>
+
+            <div class="social">
+              <a href="#instagram"><img src="img/social/instagram.png" alt="instagram" /></a>
+              <a href="#facebook"><img src="img/social/facebook.png" alt="facebook" /></a>
+              <a href="#linkedin"><img src="img/social/linkedin.png" alt="linkedin" /></a>
+              <a href="#pinterest"><img src="img/social/pinterest.png" alt="pinterest" /></a>
+              <a href="#twitter"><img src="img/social/twitter.png" alt="twitter" /></a>
+              <a href="#youtube"><img src="img/social/youtube.png" alt="youtube" /></a>
+              <a href="#whatsapp"><img src="img/social/whatsapp.png" alt="whatsapp" /></a>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<div id="copyRight">
+    <div class="container">
+     <div class="md-1">
+        <label>Copyright © 2022 <br />Ömer YILDIRIM & Seydullah KAYA</label>
+     </div>
+
+     <div class="md-1">
+        <div class="validate">
+                <a href="https://jigsaw.w3.org/css-validator/validator?uri=https://aybu.org/ceng311/hw4/" target="_blank">
+                    <img style="border:0;width:88px;height:31px"
+                        src="https://jigsaw.w3.org/css-validator/images/vcss"
+                        alt="Valid CSS!" />
+                </a>
+
+                <a href="https://validator.w3.org/nu/?doc=https://aybu.org/ceng311/hw4/" target="_blank">
+                    <img style="border:0;width:88px;height:31px"
+                        src="http://www.w3.org/Icons/valid-html401.png"
+                        alt="Valid HTML!" />
+                </a>
+        </div>
+      </div>
+    </div>
+</div>
+
+<script src="jQueryPlugins/responsive-carousel-riot/riot-slider.js"></script>
+<script src="jQueryPlugins/jquery.carousel-ticker/jquery.carouselTicker.min.js"></script>
+<script src="jQueryPlugins/modal-popup-ybox/directive.js"></script>
+<script src="jQueryPlugins/modal-popup-ybox/yBox.js"></script>
+
+<script>
+(function ($, undefined) {
+    "use strict";
+
+    $(".carouselTicker").carouselTicker({
+        reverse: true
+    });
+})(jQuery);
+
+
+$('#newsTicker').easyTicker({
+
+  // or 'down'
+  direction: 'up',
+
+  // easing function
+  easing: 'swing',
+
+  // animation speed
+  speed: 'slow',
+
+  // animation delay
+  interval: 2000,
+
+  // height
+  height: '300px',
+
+});
+
+$('#productTicker').easyTicker({
+
+  // or 'down'
+  direction: 'down',
+
+  // easing function
+  easing: 'swing',
+
+  // animation speed
+  speed: 'speed',
+
+  // animation delay
+  interval: 1500,
+
+  // height
+  height: '300px',
+
+});
+
+
+//Ajax Finance
+
+function reloadFinance(){
+
+    $("#finance").hide();
+    $("#finance table").html("<tr><th>CurrencyName</th><th>ForexBuying</th><th>ForexSelling</th><th>BanknoteBuying</th><th>BanknoteSelling</th></tr>");
+
+    $.ajax({
+            url: './financeJson.php',
+            type: "GET",
+            dataType: 'json',
+            success: function (data) {
+
+                    console.log(data.date);
+                    $("#finance h2").html(data.date);
+
+                    for(i=0; i<data.result.length;i++){
+
+                      console.log(data.result[i].CurrencyName);
+
+                      $("#finance table").append(
+                        "<tr>"+
+                            "<td>"+data.result[i].CurrencyName+"</td>"+
+                            "<td>"+data.result[i].ForexBuying+"</td>"+
+                            "<td>"+data.result[i].ForexSelling+"</td>"+
+                            "<td>"+data.result[i].BanknoteBuying+"</td>"+
+                            "<td>"+data.result[i].BanknoteSelling+"</td>"+
+                        "</tr>"
+                      );
+
+                      $("#finance").slideDown("slow");
+
+                    }
+
+            }
+        });
+}
+
+reloadFinance();
+
+
+</script>
+
+</body>
+
+</html>

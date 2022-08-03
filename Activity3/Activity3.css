@@ -1,0 +1,52 @@
+.advertisement
+{
+	clear: both;
+	width:100px;
+	height:150px;
+	border-color:black;
+	border-width:2px;
+	background-color:gray;
+	color:white;
+	position: absolute;
+	top:10px;
+
+
+}
+
+.header{
+	position: relative;
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 70%;
+}
+
+.content{
+	position: relative;
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 70%;
+	text-align: justify;
+	clear: both;
+}
+.logo{
+
+	float: left;
+	margin-right: 20px;
+}
+.title{
+	margin-left: 10px;
+}
+.image{
+
+	float: left;
+	margin: 10px;
+
+}
+.image img{
+	width:250px;
+
+}
+.head{
+	text-align: center;
+	padding-top: 50px;
+}

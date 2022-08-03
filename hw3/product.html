@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Homework3 - AYBU NoteBook Company - Product</title>
+    <meta name="description" content="AYBU NoteBook Company" />
+    <meta name="keywords" content="notebook,notebook company, aybu notebook" />
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="jQueryPlugins/responsive-carousel-riot/riot-slider.css" />
+    <link rel="stylesheet" href="jQueryPlugins/basic-continuous-image-carousel/styles.css" />
+    <link rel="stylesheet" href="jQueryUI/jquery-ui.css" />
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="jQueryPlugins/basic-continuous-image-carousel/jquery.easing.min.js" defer></script>
+    <script src="jQueryPlugins/basic-continuous-image-carousel/script.js" defer></script>
+    <script src="jQueryUI/jquery-ui.js"></script>
+
+
+</head>
+<body>
+<div id="header-top">
+    <div class="container">
+        <div id="logo">
+            <img src="img/Logo.png" alt="logo" />
+        </div>
+    </div>
+</div>
+
+<div id="menu">
+    <div class="container">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html" class="active">Product</a></li>
+            <li><a href="reservation.html">Reservation</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </div>
+</div>
+
+
+
+<div id="slider">
+    <div class="mainContainer">
+        <ul class="riot-slider">
+              <li><img src="img/slider/1.jpg" alt="Alt Text" /></li>
+              <li><img src="img/slider/2.jpg" alt="Alt Text" /></li>
+              <li><img src="img/slider/1.jpg" alt="Alt Text" /></li>
+              <li><img src="img/slider/2.jpg" alt="Alt Text" /></li>
+          </ul>
+    </div>
+</div>
+
+<div class="container">
+
+
+    <div class="info md-1">
+            <label>Product 1</label>
+
+            <div>
+
+              	<div id="sliderProduct">
+            		<ul>
+            			<li><img src="img/img1.png" alt="slideshow image"></li>
+            			<li><img src="img/img2.jpg" alt="slideshow image"></li>
+            			<li><img src="img/img3.png" alt="slideshow image"></li>
+            			<li><img src="img/img4.jpg" alt="slideshow image"></li>
+            		</ul>
+            	</div>
+            	<p id="links"><a href="javascript:void(0);" id="previous">previous</a><a href="javascript:void(0);" id="next">next</a></p>
+
+                <h3>Product 1 : 15$ </h3>
+                    <div id="tabs">
+                      <ul>
+                        <li><a href="#tabs-1">Detail 1</a></li>
+                        <li><a href="#tabs-2">Detail 2</a></li>
+                        <li><a href="#tabs-3">Detail 3</a></li>
+                      </ul>
+                      <div id="tabs-1">
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." </p>
+                      </div>
+                      <div id="tabs-2">
+                        <p> "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?" </p>
+                      </div>
+                      <div id="tabs-3">
+                        <p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."</p>
+                      </div>
+                    </div>
+
+            </div>
+    </div>
+
+    <div class="info md-1">
+            <label>Comment</label>
+
+            <form action="javascript:void(0);" method="get">
+                <table>
+
+                    <tr>
+                        <td>Name / Lastname</td>
+                        <td>:</td>
+                        <td><input type="text" name="name" /></td>
+                    </tr><tr>
+                        <td>Which Product?</td>
+                        <td>:</td>
+                        <td><input id="city" type="text" name="pname" /></td>
+
+                    </tr><tr>
+
+                        <td>Purchased date?</td>
+                        <td>:</td>
+                        <td><input id="proDate" type="text" name="proDate" /></td>
+                    </tr><tr>
+
+                        <td>Email Address</td>
+                        <td>:</td>
+                        <td><input type="text" name="email" placeholder="Enter a valid email address" /></td>
+                    </tr><tr>
+
+                        <td>Your Comment</td>
+                        <td>:</td>
+                        <td><textarea name="ycomment" ></textarea></td>
+                     </tr><tr>
+                         <td><input type="submit" value="submit" /></td>
+                         <td> </td>
+                         <td> </td>
+                        </tr>
+
+                </table>
+            </form>
+
+    </div>
+
+    <div class="info md-1" id="allComments">
+            <label>All Comments</label>
+
+            <div class="comment">
+                <table>
+                    <tr> <td>Ömer YILDIRIM</td></tr>
+                    <tr> <td>Product 1</td></tr>
+                    <tr> <td>17050161004@ybu.edu.tr</td></tr>
+                    <tr> <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </td></tr>
+                    <tr> <td class="textRight">12/05/2022</td></tr>
+                </table>
+            </div>
+
+            <div class="comment">
+                <table>
+                    <tr> <td>Seydullah Kaya</td></tr>
+                    <tr> <td>Product 2</td></tr>
+                    <tr> <td>18050111057@ybu.edu.tr</td></tr>
+                    <tr> <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </td></tr>
+                    <tr> <td class="textRight">13/05/2022</td></tr>
+                </table>
+            </div>
+
+    </div>
+
+</div>
+
+
+<div id="footer">
+  <div class="container">
+        <div class="part md-4">
+            <label>Sitemap</label>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+        </div>
+
+        <div class="part md-4">
+
+            <div class="md-1">
+                <label>Subscribe</label>
+                <form action="/" method="get">
+                    <table>
+                        <tr>
+                            <td><input type="text" value="Email Adress" /></td>
+                            <td><input type="submit" value="Subscribe" /> </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+
+            <div class="md-1">
+                <label>Search</label>
+                <form action="/" method="get">
+                    <table>
+                        <tr>
+                            <td><input type="text" value="search..." /></td>
+                            <td><input type="submit" value="Search" /> </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+
+        </div>
+
+        <div class="part md-4">
+            <label>Follow Me</label>
+
+            <div class="social">
+              <a href="#instagram"><img src="img/social/instagram.png" alt="instagram" /></a>
+              <a href="#facebook"><img src="img/social/facebook.png" alt="facebook" /></a>
+              <a href="#linkedin"><img src="img/social/linkedin.png" alt="linkedin" /></a>
+              <a href="#pinterest"><img src="img/social/pinterest.png" alt="pinterest" /></a>
+              <a href="#twitter"><img src="img/social/twitter.png" alt="twitter" /></a>
+              <a href="#youtube"><img src="img/social/youtube.png" alt="youtube" /></a>
+              <a href="#whatsapp"><img src="img/social/whatsapp.png" alt="whatsapp" /></a>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<div id="copyRight">
+    <div class="container">
+     <div class="md-1">
+        <label>Copyright © 2022 <br />Ömer YILDIRIM & Seydullah KAYA</label>
+     </div>
+
+     <div class="md-1">
+        <div class="validate">
+                <a href="https://jigsaw.w3.org/css-validator/validator?uri=https://aybu.org/ceng311/hw3/product.html" target="_blank">
+                    <img style="border:0;width:88px;height:31px"
+                        src="https://jigsaw.w3.org/css-validator/images/vcss"
+                        alt="Valid CSS!" />
+                </a>
+
+                <a href="https://validator.w3.org/nu/?doc=https://aybu.org/ceng311/hw3/product.html" target="_blank">
+                    <img style="border:0;width:88px;height:31px"
+                        src="http://www.w3.org/Icons/valid-html401.png"
+                        alt="Valid HTML!" />
+                </a>
+        </div>
+      </div>
+    </div>
+</div>
+
+<script src="jQueryPlugins/responsive-carousel-riot/riot-slider.js"></script>
+    <script>
+  $( function() {
+    $( "#tabs" ).tabs();
+
+  $( "#proDate" ).datepicker();
+    var cities = [  "Product 1","Product 2","Product 3","Product 4","Product 5","Product 6","Product 7","Product 8" ];
+    $( "#city" ).autocomplete({source: cities });
+
+  } );
+
+
+
+  $( "form" ).on( "submit", function( event ) {
+  event.preventDefault();
+  data = $( this ).serializeArray();
+
+  if(!isValidEmailAddress(data[3].value)) {
+      alert("Wrong Mail Address!");
+  } else {
+
+      $("#allComments").append(
+                  '<div id="comment">'+
+                    '<table>'+
+                        '<tr> <td>'+data[0].value+'</td></tr>'+
+                        '<tr> <td>'+data[1].value+'</td></tr>'+
+                        '<tr> <td>'+data[3].value+'</td></tr>'+
+                        '<tr> <td>'+data[4].value+'</td></tr>'+
+                        '<tr> <td class="textRight">'+data[2].value+'</td></tr>'+
+                    '</table>'+
+                '</div>'
+      );
+
+  }
+
+
+
+});
+
+function isValidEmailAddress(emailAddress) {
+    var pattern = /^([a-z\d!#$%&'*+\-\/=?^_`{|}~\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]+(\.[a-z\d!#$%&'*+\-\/=?^_`{|}~\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]+)*|"((([ \t]*\r\n)?[ \t]+)?([\x01-\x08\x0b\x0c\x0e-\x1f\x7f\x21\x23-\x5b\x5d-\x7e\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]|\\[\x01-\x09\x0b\x0c\x0d-\x7f\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]))*(([ \t]*\r\n)?[ \t]+)?")@(([a-z\d\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]|[a-z\d\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF][a-z\d\-._~\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]*[a-z\d\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])\.)+([a-z\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]|[a-z\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF][a-z\d\-._~\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]*[a-z\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])\.?$/i;
+    return pattern.test(emailAddress);
+};
+
+  </script>
+</body>
+
+</html>

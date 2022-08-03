@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Homework4 - AYBU NoteBook Company - Product</title>
+    <meta name="description" content="AYBU NoteBook Company" />
+    <meta name="keywords" content="notebook,notebook company, aybu notebook" />
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="jQueryPlugins/responsive-carousel-riot/riot-slider.css" />
+    <link rel="stylesheet" href="jQueryPlugins/basic-continuous-image-carousel/styles.css" />
+    <link rel="stylesheet" href="jQueryUI/jquery-ui.css" />
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="jQueryPlugins/basic-continuous-image-carousel/jquery.easing.min.js" defer></script>
+    <script src="jQueryPlugins/basic-continuous-image-carousel/script.js" defer></script>
+    <script src="jQueryUI/jquery-ui.js"></script>
+
+
+</head>
+<body>
+<div id="header-top">
+    <div class="container">
+        <div id="logo">
+            <img src="img/Logo.png" alt="logo" />
+        </div>
+    </div>
+</div>
+
+<div id="menu">
+    <div class="container">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Product</a></li>
+            <li><a href="reservation.html" class="active">Reservation</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </div>
+</div>
+
+
+
+<div id="slider">
+    <div class="mainContainer">
+        <ul class="riot-slider">
+              <li><img src="img/slider/1.jpg" alt="Alt Text" /></li>
+              <li><img src="img/slider/2.jpg" alt="Alt Text" /></li>
+              <li><img src="img/slider/1.jpg" alt="Alt Text" /></li>
+              <li><img src="img/slider/2.jpg" alt="Alt Text" /></li>
+          </ul>
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="info md-1">
+            <label>Reservation From</label>
+
+            <div id="formArea">
+                <form action="reservation.php" method="post">
+                    <table>
+
+                        <tr>
+                            <td>Name / Lastname</td>
+                            <td>:</td>
+                            <td><input type="text" name="name" placeholder="Enter your name / lastname" /></td>
+                        </tr><tr>
+                            <td>Phone</td>
+                            <td>:</td>
+                            <td><input type="text" name="phone" placeholder="Enter your pohone" /></td>
+                        </tr><tr>
+
+                            <td>Email Address</td>
+                            <td>:</td>
+                            <td><input type="text" name="email" placeholder="Enter your email address" /></td>
+                        </tr><tr>
+
+                            <td>Which Product?</td>
+                            <td>:</td>
+                            <td><input id="proDate" type="text" name="pname" /></td>
+
+                        </tr><tr>
+                            <td>Reservation date?</td>
+                            <td>:</td>
+                            <td><input id="rDate" type="text" name="rDate" /></td>
+                        </tr><tr>
+
+                            <td><input type="submit" value="submit" /></td>
+                            <td></td>
+                            <td></td>
+                         </tr>
+
+                    </table>
+                </form>
+            </div>
+
+    </div>
+
+</div>
+
+
+<div id="footer">
+  <div class="container">
+        <div class="part md-4">
+            <label>Sitemap</label>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+        </div>
+
+        <div class="part md-4">
+
+            <div class="md-1">
+                <label>Subscribe</label>
+                <form action="/" method="get">
+                    <table>
+                        <tr>
+                            <td><input type="text" value="Email Adress" /></td>
+                            <td><input type="submit" value="Subscribe" /> </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+
+            <div class="md-1">
+                <label>Search</label>
+                <form action="/" method="get">
+                    <table>
+                        <tr>
+                            <td><input type="text" value="search..." /></td>
+                            <td><input type="submit" value="Search" /> </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+
+        </div>
+
+        <div class="part md-4">
+            <label>Follow Me</label>
+
+            <div class="social">
+              <a href="#instagram"><img src="img/social/instagram.png" alt="instagram" /></a>
+              <a href="#facebook"><img src="img/social/facebook.png" alt="facebook" /></a>
+              <a href="#linkedin"><img src="img/social/linkedin.png" alt="linkedin" /></a>
+              <a href="#pinterest"><img src="img/social/pinterest.png" alt="pinterest" /></a>
+              <a href="#twitter"><img src="img/social/twitter.png" alt="twitter" /></a>
+              <a href="#youtube"><img src="img/social/youtube.png" alt="youtube" /></a>
+              <a href="#whatsapp"><img src="img/social/whatsapp.png" alt="whatsapp" /></a>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<div id="copyRight">
+    <div class="container">
+     <div class="md-1">
+        <label>Copyright © 2022 <br />Ömer YILDIRIM & Seydullah KAYA</label>
+     </div>
+
+     <div class="md-1">
+        <div class="validate">
+                <a href="https://jigsaw.w3.org/css-validator/validator?uri=https://aybu.org/ceng311/hw4/reservation.html" target="_blank">
+                    <img style="border:0;width:88px;height:31px"
+                        src="https://jigsaw.w3.org/css-validator/images/vcss"
+                        alt="Valid CSS!" />
+                </a>
+
+                <a href="https://validator.w3.org/nu/?doc=https://aybu.org/ceng311/hw4/reservation.html" target="_blank">
+                    <img style="border:0;width:88px;height:31px"
+                        src="http://www.w3.org/Icons/valid-html401.png"
+                        alt="Valid HTML!" />
+                </a>
+        </div>
+      </div>
+    </div>
+</div>
+
+<script src="jQueryPlugins/responsive-carousel-riot/riot-slider.js"></script>
+    <script>
+  $( function() {
+
+    $( "#rDate" ).datepicker();
+    var cities = [  "Product 1","Product 2","Product 3","Product 4","Product 5","Product 6","Product 7","Product 8" ];
+    $( "#proDate" ).autocomplete({source: cities });
+
+  } );
+
+
+ var frm = $('form');
+    frm.submit(function (e) {
+
+        e.preventDefault();
+
+        $.ajax({
+            type: frm.attr('method'),
+            url: frm.attr('action'),
+            data: frm.serialize(),
+            success: function (data) {
+                console.log(data);
+                dataParse = JSON.parse(data);
+
+                $("#formArea").html( "<table>"+
+                "<tr><td>Result Message : </td><td>"+dataParse.message+"</td></tr>"+
+                "<tr><td>Name/Surname : </td><td>"+dataParse.name+"</td></tr>"+
+                "<tr><td>Phone : </td><td>"+dataParse.phone+"</td></tr>"+
+                "<tr><td>Email : </td><td>"+dataParse.email+"</td></tr>"+
+                "<tr><td>Product : </td><td>"+dataParse.pname+"</td></tr>"+
+                "<tr><td>Date : </td><td>"+dataParse.rDate+"</td></tr>"+
+                "</table>");
+            },
+            error: function (data) {
+                console.log('An error occurred.');
+                console.log(data);
+                alert("Wrong! Please try again later.");
+            },
+        });
+    });
+
+  </script>
+</body>
+
+</html>

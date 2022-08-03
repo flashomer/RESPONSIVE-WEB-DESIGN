@@ -1,0 +1,16 @@
+{"comments":[{
+		"name": "Ömer YILDIRIM",
+		"product": "Product 1",
+		"mail": "17050161004@ybu.edu.tr",
+		"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"date": "29/05/2022"
+    },
+
+    {
+		"name": "Seydullah Kaya",
+		"product": "Product 2",
+		"mail": "18050111057@ybu.edu.tr",
+		"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"date": "25/05/2022"
+    }
+]}
